@@ -7,9 +7,10 @@
 ul {
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
 
-ul li a{
+li a {
     display: block;
     padding: 15px;
 }
