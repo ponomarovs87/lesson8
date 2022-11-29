@@ -7,10 +7,20 @@
 ul {
     display: flex;
     justify-content: center;
-    padding: 15px;
 }
 
 li a {
     display: block;
     padding: 15px;
+    text-decoration: none;
+}
+
+/* .topmenu {
+    color: white;
+} */
+
+nav {
+    /* background: black; */
+    border-style: double;
+    border-top: 5px blue;
 }
