@@ -19,8 +19,9 @@ li a {
     color: white;
 } */
 
-nav {
-    /* background: black; */
-    border-style: double;
-    border-top: 5px blue;
+nav>ul {
+    background: black;
+    /* border-style: double; */
+    border-bottom: 5px solid blue;
+    width: 960px;
 }
