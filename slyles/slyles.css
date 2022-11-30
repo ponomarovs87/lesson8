@@ -5,15 +5,17 @@
 }
 
 ul {
-    display: flex;
+   display:flex;
     justify-content: center;
 }
 
-li a {
+li a ul {
     display: block;
     padding: 15px;
     text-decoration: none;
     color: white;
+    position: relative;
+    flex-direction: column;
 }
 
 nav>ul {
@@ -28,6 +30,7 @@ header {
     width:100%;
     background: black;
 }
+ul.submenu>li{left:150px;}
 .submenu{
     position: absolute;
     /*visibility: hidden;*/
